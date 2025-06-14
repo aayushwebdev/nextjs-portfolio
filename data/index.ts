@@ -73,6 +73,22 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Converso - AI Learning Platform",
+    des: "Converso is a real-time AI chat translator that bridges language gaps instantly during conversations.",
+    img: "/converso.png",
+    iconLists: ["/re.svg", "/tail.svg"],
+    link: "https://converso-lms.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Reviewly - AI Code Optimizer",
+    des: "Reviewly is an AI-powered code review tool that delivers instant, senior-level feedback on your JavaScript code.",
+    img: "/reviewly.png",
+    iconLists: ["/re.svg", "/tail.svg"],
+    link: "https://ai-code-reviewer-theta.vercel.app/",
+  },
+  {
+    id: 3,
     title: "Samvad AI",
     des: "This app brings the power of AI text generation, similar to ChatGPT, to users' fingertips.",
     img: "/samvad.png",
@@ -80,29 +96,13 @@ export const projects = [
     link: "https://samvad-ai.vercel.app/",
   },
   {
-    id: 2,
+    id: 4,
     title: "Works Studio",
     des: "Works Studio which is an amazing website to blow your mind with their animations.",
     img: "/works.png",
     iconLists: ["/re.svg", "/tail.svg"],
     link: "https://aayushwebdev.github.io/worksStudio/",
   },
-  // {
-  //   id: 3,
-  //   title: "AI Image SaaS - Canva Application",
-  //   des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-  //   img: "/p3.svg",
-  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-  //   link: "/ui.aiimg.com",
-  // },
-  // {
-  //   id: 4,
-  //   title: "Animated Apple Iphone 3D Website",
-  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-  //   img: "/p4.svg",
-  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-  //   link: "/ui.apple.com",
-  // },
 ];
 
 export const testimonials = [
@@ -174,7 +174,7 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Web Developer Intern",
+    title: "Web Developer - FARCRAWS",
     desc: " Implementing a two-way communication system between the web app and IoT devices, aiming to improve data transfer efficiency.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
@@ -195,7 +195,7 @@ export const workExperience = [
   // },
   {
     id: 2,
-    title: "Lead Frontend Developer",
+    title: "Frontend Developer - Bettel",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
