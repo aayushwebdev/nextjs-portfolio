@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
+/sentry.client.config.ts
+/sentry.edge.config.ts
+/sentry.server.config.ts
+/README.md
 
 # testing
 /coverage
